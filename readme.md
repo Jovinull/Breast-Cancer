@@ -8,22 +8,19 @@ Este repositório contém códigos para resolver o problema de classificação d
 
 Este script implementa uma rede neural simples usando a biblioteca Keras. Ele carrega o conjunto de dados, divide-o em conjuntos de treinamento e teste, constrói um modelo sequencial de rede neural com duas camadas ocultas e uma camada de saída, compila o modelo e o treina nos dados de treinamento. O script também avalia o modelo nos dados de teste, calcula a precisão e cria uma matriz de confusão para a avaliação de desempenho.
 
-Funções de perda: binary_crossentropy
-Função de ativação: relu (camadas ocultas), sigmoid (camada de saída)
+- Funções de perda: binary_crossentropy
+- Função de ativação: relu (camadas ocultas), sigmoid (camada de saída)
 
 ### 2. breast-cancer-cruzada
 
 Este script demonstra a validação cruzada para o modelo de rede neural. Utiliza a biblioteca scikeras para envolver o modelo Keras, permitindo seu uso com as ferramentas de validação cruzada do scikit-learn. O script define uma função para criar a arquitetura da rede neural, configura o KerasClassifier e realiza a validação cruzada com 10 folds, medindo a precisão.
 
-Funções de perda: binary_crossentropy
-Função de ativação: relu (camadas ocultas), sigmoid (camada de saída)
+- Funções de perda: binary_crossentropy
+- Função de ativação: relu (camadas ocultas), sigmoid (camada de saída)
 
 ### 3. breast-cancer-tuning
 
 O terceiro script foca na sintonização de hiperparâmetros usando o GridSearchCV. Explora diferentes combinações de hiperparâmetros, como tamanho do lote, número de épocas, otimizador, função de perda, inicializador de kernel, função de ativação e número de neurônios. A melhor combinação de hiperparâmetros e a precisão correspondente são então determinadas.
-
-Funções de perda: binary_crossentropy
-Função de ativação: relu (camadas ocultas), sigmoid (camada de saída)
 
 ## Ambiente de Desenvolvimento
 
